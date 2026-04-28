@@ -105,4 +105,4 @@ Unauthorized copying, modification, distribution, or use is strictly prohibited.
 ## 📧 Contact
 
 For inquiries or collaboration:
-[your@email.com](mailto:your@email.com)
+[c.purnomo@gmail.com](mailto:c.purnomo@gmail.com)
