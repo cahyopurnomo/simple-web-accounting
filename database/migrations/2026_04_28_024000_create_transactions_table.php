@@ -20,6 +20,7 @@ return new class extends Migration
             $table->foreignId('category_id')->nullable()->constrained()->nullOnDelete();
             $table->decimal('amount', 15, 2);
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

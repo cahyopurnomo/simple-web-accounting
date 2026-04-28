@@ -18,6 +18,7 @@ return new class extends Migration
             $table->text('description')->nullable();
             $table->enum('type', ['OPENING','TRANSACTION']);
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

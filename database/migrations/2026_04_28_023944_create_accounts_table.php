@@ -18,6 +18,7 @@ return new class extends Migration
             $table->enum('type', ['ASSET','LIABILITY','EQUITY','INCOME','EXPENSE']);
             $table->foreignId('parent_id')->nullable()->constrained('accounts')->nullOnDelete();
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
